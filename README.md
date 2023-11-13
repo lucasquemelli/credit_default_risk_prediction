@@ -20,4 +20,9 @@ The lender lends money to the borrower. The borrower pays back in 6 months (EMIs
 
 DPD: days past due. This is the number of days by which moreover have missed an EMI payment. Let's assume a borrower needs to pay back by fifth of month M1: Bor = 5th day of M1. In case, borrower make a payment before fifth, the DPD will be zero because person has not breached the last payment date. In case the borrower pays after the fifth day, such as 7th, thus DPD will be the difference between these numbers: 7 - 5. The scenario where whoever has not made any payment post fifth of M1, then the snapshot date on which we are calculating DPD will be used: snapshot date - fifth date.  
 
-The event when default is when a borrower goes to the **DPDx** (X) in payment of first **Yemi** (Y). As DPD is in days, therefore X can be 0, 10, 30, 60 or 90 days for example. Y is the EMI, therefore it is in number of installments, such as 1, 2, 3 or any number until 6. 
+The event when default is when a borrower goes to the **DPDx** (X) in payment of first **Yemi** (Y). **As DPD is in days**, therefore X can be 0, 10, 30, 60 or 90 days for example. **Y is the EMI**, therefore it is in number of installments, such as 1, 2, 3 or any number until 6. 
+
+It is unlikely that customer will pay back the EMI after a DPD of 30 days, for example. They will achieve DPD 60, they will achieve DPD 90, and so on. Maybe, after 30 days a customer can pay back, but after 60 days is very unlikely. Thus 60 is going to be our threshold. To define the number of EMI payment after which a customer is unkely to pay back: if some person pays the first 3 EMIs, it is very unlikely they will default post that. Thus 3 will be our cutoff. 
+
+
+

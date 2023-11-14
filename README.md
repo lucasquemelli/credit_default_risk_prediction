@@ -24,5 +24,11 @@ The event when default is when a borrower goes to the **DPDx** (X) in payment of
 
 It is unlikely that customer will pay back the EMI after a DPD of 30 days, for example. They will achieve DPD 60, they will achieve DPD 90, and so on. Maybe, after 30 days a customer can pay back, but after 60 days is very unlikely. Thus 60 is going to be our threshold. To define the number of EMI payment after which a customer is unkely to pay back: if some person pays the first 3 EMIs, it is very unlikely they will default post that. Thus 3 will be our cutoff. 
 
+**Purpose**
+
+---
+
+To predict loan defaulters and minimize the risk of loss on the basis of credit history, employment, and demographic data.
+
 
 

@@ -163,8 +163,8 @@ def create_label(df, dpd, months):
     df : DataFrame
     """
     months = ["emi_"+str(x)+"_dpd" for x in range(1, months+1)]
-    df['label'] = np.where(df[months].max(axis = 1)>=dpd, 1, 0)
-    print("label columns added to dataframe")
+    df['target'] = np.where(df[months].max(axis = 1)>=dpd, 1, 0)
+    print("Label/target column added to dataframe!")
     return df
 
 def label_distribution(data_list, data_list_name, label_name):

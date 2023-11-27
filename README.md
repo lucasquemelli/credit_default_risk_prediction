@@ -30,5 +30,23 @@ It is unlikely that customer will pay back the EMI after a DPD of 30 days, for e
 
 To predict loan defaulters and minimize the risk of loss on the basis of credit history, employment, and demographic data.
 
+# 3. Solution Strategy
 
+**Step 01 - Data Description:** cleaning data, changing data type, treating missing values, check balance of data, and descriptive statistics.
+
+**Step 02 - Feature Engineering:** creating new features that may better explain the phenomenon.
+
+**Step 03 - Exploratory Data Analysis:** univariate analysis, bivariate analysis (hypotheses test).
+
+**Step 04 - Dataset balance:** balancing dataset in order to avoid biases for some class.
+ 
+**Step 05 - Data Preparation:** rescaling, encoding and transformation.
+
+**Step 06 - Feature Selection:** feature selection based on feature importance analysis.
+
+**Step 07 - Machine Learning Modelling:** testing and comparing Machine Learning models.
+
+**Step 08 - Validation:** simulation of the prod environment.
+
+**Step 09 - Business Performance:** translating the results into business.
 

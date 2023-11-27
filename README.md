@@ -48,5 +48,8 @@ To predict loan defaulters and minimize the risk of loss on the basis of credit 
 
 **Step 08 - Validation:** simulation of the prod environment.
 
-**Step 09 - Business Performance:** translating the results into business.
+# 4. Top 3 Data Insights
 
+1. People who cross DPD 60 may be consider as a defaulter.
+2. People who cross EMI 3 may be consider as a defaulter.
+3. People with home type equals to rent were more prone to be a defaulter.

@@ -30,7 +30,7 @@ It is unlikely that customer will pay back the EMI after a DPD of 30 days, for e
 
 To predict loan defaulters and minimize the risk of loss on the basis of credit history, employment, and demographic data.
 
-# 3. Solution Strategy
+# 2. Solution Strategy
 
 **Step 01 - Data Description:** cleaning data, changing data type, treating missing values, check balance of data, and descriptive statistics.
 
@@ -48,7 +48,7 @@ To predict loan defaulters and minimize the risk of loss on the basis of credit 
 
 **Step 08 - Validation:** simulation of the prod environment.
 
-# 4. Top 3 Data Insights
+# 3. Top 3 Data Insights
 
 1. People who cross DPD 60 may be consider as a defaulter.
 2. People who cross EMI 3 may be consider as a defaulter.
